@@ -1,0 +1,54 @@
+.join-us {
+    text-align: left;
+}
+
+.join-us h3 {
+    color: #010133cc;
+}
+
+.join-us p {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.join-us a {
+    text-decoration: none;
+    background: #010133cc;
+    padding: 10px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    width: 150px;
+    justify-content: center;
+}
+
+.sec-join-us {
+    justify-content: center;
+    flex-direction: row !important;
+    margin-top: 15%;
+}
+
+.sec-join-us .join-us {
+    width: 50%;
+}
+
+.sec-join-us img {
+    width: 30%;
+}
+
+@media (max-width:992px) {
+    .sec-join-us {
+        margin-top: 100px;
+        flex-direction: column;
+    }
+
+    .sec-join-us .join-us {
+        width: 90%;
+    }
+
+    .sec-join-us img {
+        width: 90%;
+    }
+}

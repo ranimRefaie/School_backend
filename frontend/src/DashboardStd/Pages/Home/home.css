@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Domine:wght@400..700&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap');
+.main-student {
+    position: relative;
+    height: 100vh;
+    background-image: url('../../../assets/logo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 58%;
+}
+
+.main-student .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.6); /* White overlay with 60% opacity */
+    z-index: 1; /* Ensure it’s above the background image but below content */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Space between quiz cards */
+    position: relative; /* Ensure quizzes are above the overlay */
+    z-index: 2; /* Higher than the overlay */
+}
+
+.card {
+    border: 1px solid #c7be0f; /* Card border */
+    padding: 10px; /* Inner padding */
+    padding-left: 50px;
+    border-radius: 15px; /* Rounded corners */
+    background-color: #f9f9f9; /* Card background color */
+    /*font-family: 'Roboto', sans-serif; /* Use Roboto for quiz cards */
+    font-family: "STIX Two Text", serif;
+    position: relative;
+    
+}
+
+.card h3 {
+    margin: 0 0 10px 0; /* Margin below the quiz name */
+    color: #26285f ;
+    letter-spacing: 0.5px; /* Add some spacing */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Light shadow */
+    font-weight: 540;
+   /* font-family: Arial, Helvetica, sans-serif;*/
+    font-family: "Domine", serif;
+
+
+    
+}
+
+.card strong {
+    color: #3e3e3e ;
+}
+
+.card p {
+    margin: 4px 0; /* Margin between paragraphs */
+    font-size: 18px;
+    line-height: 1.5; /* Improve readability */
+    letter-spacing: 0.5px; /* Add some spacing */
+   /* color: rgb(25, 25, 25);*/
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6d96c2;
+    color: white;
+    cursor: pointer;
+    z-index: 10; /* Ensure it is on top */
+  }
+  
+  .pagination button.active {
+    background-color: #0056b3; /* Darker shade for the active page */
+  }
+  
+  .pagination button:hover {
+    background-color: #076ad5;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ccc; /* Gray out disabled buttons */
+    cursor: not-allowed; /* Change cursor for disabled buttons */
+  }
+  
+  .card-date {
+    position: absolute; /* Position the date */
+    bottom: 10px; /* Adjust bottom space */
+    right: 10px; /* Adjust right space */
+    font-size: 1.6rem; /* Slightly smaller font size */
+    color: #737373; /* Lighter color for the date */
+    font-weight: 550;
+}
+
+.negative-type {
+  color: rgb(190, 45, 45); /* Red for negative */
+}
+
+.positive-type {
+  color: green; /* Green for positive */
+}
+
+
+/*.main-student {
+    position: relative;
+    height: 100vh;
+    background-image: url('../../../assets/logo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-student .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.main-student table {
+    position: absolute;
+    z-index: 11;
+}
+
+.quizzes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; 
+  }
+  
+  .quiz-card {
+    border: 1px solid #ccc; 
+    padding: 16px;
+    border-radius: 8px; 
+    background-color: #f9f9f9;
+  }
+  
+  .quiz-card h3 {
+    margin: 0 0 8px 0; 
+  }
+  
+  .quiz-card p {
+    margin: 4px 0; 
+  }
+  */

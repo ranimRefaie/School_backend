@@ -1,0 +1,41 @@
+.about-us {
+    width: 85%;
+    height: 100vh;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-us .container-about {
+    width: 40%;
+}
+
+.about-us .container-about img {
+    width: 80%;
+}
+
+.container-about p {
+    text-align: left;
+    line-height: 40px;
+    color: #010133cc;
+    font-size: 20px;
+    direction: ltr;
+
+}
+
+@media (max-width:992px) {
+    .about-us {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .about-us .container-about {
+        width: 80%;
+        margin: auto;
+    }
+
+    .about-us .container-about img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,47 @@
+.group-input select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; 
+    box-sizing: border-box; 
+  }
+  
+
+.message { 
+    width: 30%;
+    color: #312f2f; 
+    background-color: #ebf7eb; 
+    border: 1px, solid, #4caf50;
+    padding: 10px; 
+    border-radius: 4px; 
+    margin-top: 10px; 
+    font-size: 16px; 
+    display: flex; 
+    align-items: center; 
+    transition: opacity 0.5s ease; 
+    opacity: 1; 
+  }
+  .message.fade-out {
+    opacity: 0; 
+    pointer-events: none; 
+  }
+
+  
+  .error-message {
+    width: 40%;
+    color: #312f2f; 
+    background-color: #f7ebeb; 
+    border: 1px, solid, #ef3232;
+    padding: 10px; 
+    border-radius: 4px; 
+    margin-top: 10px; 
+    font-size: 16px; 
+    display: flex; 
+    align-items: center; 
+    transition: opacity 0.5s ease; 
+    opacity: 1; 
+  }
+  .error-message.fade-out {
+    opacity: 0; 
+    pointer-events: none; 
+  }

@@ -1,0 +1,148 @@
+.page-student {
+    width: 80%;
+    margin: 3rem 0 3rem 20rem;
+    position: relative;
+}
+
+.page-student h1 {
+    color: #010133cc;
+}
+
+.page-student table {
+    margin-top: 30px;
+    width: 90%;
+}
+
+.page-student table thead tr th,
+.page-student table tbody tr td {
+    padding: 10px 20px;
+}
+
+.page-student table thead {
+    background-color: #010133cc;
+    color: #fff;
+}
+
+.row-table {
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.group-btn-table {
+    gap: 10px;
+}
+
+.btn-tbl {
+    background-color: #010133cc;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-search {
+    width: 35%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #010133cc;
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    width: 50%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.popup-content form {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.group-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.group-input input {
+    padding: 5px 5px;
+    margin: 5px 0;
+}
+
+.group-btn-form {
+    display: flex;
+    margin: 10px 0;
+    gap: 10px;
+}
+
+.group-btn-form button {
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.btn-save {
+
+    color: #fff;
+    background-color: #31bd31;
+    border: none;
+}
+
+.btn-save:hover {
+    background-color: #0fbd0f;
+}
+
+.btn-del {
+    background-color: transparent;
+    color: rgb(209, 44, 44);
+    border: none;
+}
+.message {
+    color: #312f2f; 
+    background-color: #ebf7eb; 
+    border: 1px, solid, #4caf50;
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    margin: 10px 0; 
+    transition: opacity 0.5s ease; 
+    opacity: 1; 
+  }
+  .message.fade-out {
+    opacity: 0; /* Fade out */
+    pointer-events: none; /* Prevent interaction */
+  }
+
+  .error-message {
+    color: #312f2f; 
+    background-color: #f7ebeb; 
+    border: 1px, solid, #ef3232;
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    margin: 10px 0; 
+    transition: opacity 0.5s ease; 
+    opacity: 1; 
+  }
+  .error-message.fade-out {
+    opacity: 0; /* Fade out */
+    pointer-events: none; /* Prevent interaction */
+  }
+  
+  

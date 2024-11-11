@@ -1,0 +1,22 @@
+.faq {
+    margin: 100px 0;
+}
+
+.contain-faq {
+    width: 10%;
+    margin: 40px auto;
+}
+
+.contain-faq img {
+    width: 100%;
+}
+
+.faq .accordion {
+    width: 100%;
+}
+
+@media (max-width:992px) {
+    .contain-faq {
+        width: 50%;
+    }
+}

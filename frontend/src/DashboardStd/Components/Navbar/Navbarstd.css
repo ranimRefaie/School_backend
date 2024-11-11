@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Domine:wght@400..700&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap');
+
+.navbar-students {
+    background: #f8f9fa; 
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar-title {
+    margin: 0;
+    color: #343a40; 
+    font-size: 2rem;
+    margin-left: 23%;
+    font-family: "Arima", system-ui;
+    font-weight: 550;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+
+}
+
+.user-dropdown {
+    background-color: transparent; 
+    border: none; 
+    color: #343a40; 
+}
+
+.dropdown-toggle {
+    border: none;
+    background-color: transparent; 
+}
+
+.dropdown-toggle:hover {
+    background-color: #e2e6ea; 
+}
+
+
+.dropdown-item:hover, 
+.dropdown-item:focus {
+    background-color: #e2e6ea; /* Change to your desired color */
+    outline: none; /* Remove the focus outline */
+}
+
+.btn-check:checked,
+.btn.active,
+.btn.show,
+.dropdown-toggle:hover {
+    background-color: #e2e6ea !important; 
+}
+
+.logout-link {
+    color: #dc3545; 
+    text-decoration: none; 
+}
+
+.profile-link{
+    text-decoration: none;
+    color: #343a40;
+}
+
+.profile-link:focus {
+    color: #343a40;
+}
+
+.logout-link:hover {
+    color: #dc3545; 
+    text-decoration: underline; 
+}
+
+.user-icon {
+    color: rgb(38, 38, 110); 
+}
+
+.user-dropdown .dropdown-toggle::after {
+    color: rgb(38, 38, 110);
+}

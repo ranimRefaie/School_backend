@@ -1,0 +1,175 @@
+.hero-contact {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 140px);
+    background-image: url('../../assets/bg-hero.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-contact .overlay {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+
+}
+
+
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row !important;
+}
+
+.info-contact {
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info-contact .card-info {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-contact .card-info p {
+    font-size: 18px;
+    color: #868686;
+}
+
+.icon-card {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fbda5b;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-contact {
+    width: 50%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.form-contact .group-input {
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.form-contact .group-input input {
+    width: 90%;
+}
+
+.form-contact input {
+    border-radius: 5px;
+    border: 1px solid #00000026;
+    padding: 10px;
+}
+.form-contact select{
+    border-radius: 5px;
+    border: 1px solid #00000026;
+    padding: 10px;
+}
+
+.form-contact textarea {
+    border-radius: 5px;
+    border: 1px solid #00000026;
+    padding: 10px;
+}
+
+
+.form-contact button {
+    text-decoration: none;
+    background: #010133cc;
+    padding: 10px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    justify-content: center;
+
+}
+
+.form-contact button:hover {
+    background-color: #020248cc;
+
+}
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px; 
+
+}
+
+/* JobApplication.css */
+
+.file-upload-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.file-upload-placeholder {
+    font-size: 16px;
+    color: #666;
+    padding: 10px 15px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.file-input {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+  
+@media (max-width:992px) {
+    .contact-us {
+        flex-direction: column;
+    }
+
+    .form-contact {
+        width: 90%;
+    }
+
+    .info-contact {
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:500px) {
+    .form-contact .group-input {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .form-contact .group-input input  {
+        width: 100%;
+    }
+    .form-contact .group-input select  {
+        width: 100%;
+    }
+}

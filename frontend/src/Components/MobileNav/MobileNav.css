@@ -1,0 +1,85 @@
+.mobile-menu {
+    width: 50%;
+    height: 100vh;
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999 !important;
+    opacity: 0;
+    box-shadow: 0px 29px 80px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    transform: translateX(-100vw);
+    background-color: #fff;
+}
+
+
+.mobile-menu-coontainer img {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.mobile-menu-coontainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 20px;
+}
+
+.mobile-menu-coontainer .btn-1 {
+    background-color: rgba(1, 1, 51, 0.8);
+}
+
+.mobile-menu.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.top-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.mobile-menu ul {
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.mobile-menu ul li {
+    width: 100%;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+}
+
+.mobile-menu ul li a {
+    color: rgba(1, 1, 51, 0.8);
+}
+
+
+@media (max-width:992px) {
+    .mobile-menu {
+        display: block;
+    }
+
+    .top-menu .logo h2 {
+        font-size: 1.88rem;
+    }
+
+    .top-menu .logo h2 .icon-logo {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:992px) {}
